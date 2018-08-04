@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1C836F21164BA100189568 /* csentaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C836C21164BA000189568 /* csentaku.jpg */; };
+		5F1C837021164BA100189568 /* ckekka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C836D21164BA100189568 /* ckekka1.jpg */; };
+		5F1C837121164BA100189568 /* ckekka2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C836E21164BA100189568 /* ckekka2.jpg */; };
 		5FC570D72103D0140060A1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC570D62103D0140060A1C2 /* AppDelegate.swift */; };
 		5FC570D92103D0140060A1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC570D82103D0140060A1C2 /* ViewController.swift */; };
 		5FC570DC2103D0140060A1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC570DA2103D0140060A1C2 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F1C836C21164BA000189568 /* csentaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = csentaku.jpg; sourceTree = "<group>"; };
+		5F1C836D21164BA100189568 /* ckekka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ckekka1.jpg; sourceTree = "<group>"; };
+		5F1C836E21164BA100189568 /* ckekka2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ckekka2.jpg; sourceTree = "<group>"; };
 		5FC570D32103D0140060A1C2 /* Kamishibai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kamishibai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC570D62103D0140060A1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC570D82103D0140060A1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +92,9 @@
 		5FC5711A210404540060A1C2 /* untitled folder */ = {
 			isa = PBXGroup;
 			children = (
+				5F1C836D21164BA100189568 /* ckekka1.jpg */,
+				5F1C836E21164BA100189568 /* ckekka2.jpg */,
+				5F1C836C21164BA000189568 /* csentaku.jpg */,
 				5FC570E92103E1960060A1C2 /* kekka1.jpg */,
 				5FC570E82103E1950060A1C2 /* kekka2.jpg */,
 				5FC570EA2103E1960060A1C2 /* sentaku.jpg */,
@@ -157,7 +166,10 @@
 				5FC57127210408AA0060A1C2 /* bkekka2.jpg in Resources */,
 				5FC570DE2103D01B0060A1C2 /* Assets.xcassets in Resources */,
 				5FC570ED2103E1960060A1C2 /* sentaku.jpg in Resources */,
+				5F1C837121164BA100189568 /* ckekka2.jpg in Resources */,
 				5FC57128210408AA0060A1C2 /* bsentaku.jpg in Resources */,
+				5F1C836F21164BA100189568 /* csentaku.jpg in Resources */,
+				5F1C837021164BA100189568 /* ckekka1.jpg in Resources */,
 				5FC570EB2103E1960060A1C2 /* kekka2.jpg in Resources */,
 				5FC570DC2103D0140060A1C2 /* Main.storyboard in Resources */,
 			);
