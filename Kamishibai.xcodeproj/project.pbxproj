@@ -12,6 +12,13 @@
 		5FC570DC2103D0140060A1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC570DA2103D0140060A1C2 /* Main.storyboard */; };
 		5FC570DE2103D01B0060A1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC570DD2103D01B0060A1C2 /* Assets.xcassets */; };
 		5FC570E12103D01B0060A1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC570DF2103D01B0060A1C2 /* LaunchScreen.storyboard */; };
+		5FC570EB2103E1960060A1C2 /* kekka2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FC570E82103E1950060A1C2 /* kekka2.jpg */; };
+		5FC570EC2103E1960060A1C2 /* kekka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FC570E92103E1960060A1C2 /* kekka1.jpg */; };
+		5FC570ED2103E1960060A1C2 /* sentaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FC570EA2103E1960060A1C2 /* sentaku.jpg */; };
+		5FC5710F2103F9AF0060A1C2 /* B2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5710E2103F9AF0060A1C2 /* B2ViewController.swift */; };
+		5FC57127210408AA0060A1C2 /* bkekka2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FC57124210408AA0060A1C2 /* bkekka2.jpg */; };
+		5FC57128210408AA0060A1C2 /* bsentaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FC57125210408AA0060A1C2 /* bsentaku.jpg */; };
+		5FC57129210408AA0060A1C2 /* bkekka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FC57126210408AA0060A1C2 /* bkekka1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		5FC570DD2103D01B0060A1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FC570E02103D01B0060A1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC570E22103D01B0060A1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC570E82103E1950060A1C2 /* kekka2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kekka2.jpg; sourceTree = "<group>"; };
+		5FC570E92103E1960060A1C2 /* kekka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kekka1.jpg; sourceTree = "<group>"; };
+		5FC570EA2103E1960060A1C2 /* sentaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sentaku.jpg; sourceTree = "<group>"; };
+		5FC5710E2103F9AF0060A1C2 /* B2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2ViewController.swift; sourceTree = "<group>"; };
+		5FC57124210408AA0060A1C2 /* bkekka2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkekka2.jpg; sourceTree = "<group>"; };
+		5FC57125210408AA0060A1C2 /* bsentaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bsentaku.jpg; sourceTree = "<group>"; };
+		5FC57126210408AA0060A1C2 /* bkekka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkekka1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		5FC570D52103D0140060A1C2 /* Kamishibai */ = {
 			isa = PBXGroup;
 			children = (
+				5FC5711A210404540060A1C2 /* untitled folder */,
+				5FC5710E2103F9AF0060A1C2 /* B2ViewController.swift */,
 				5FC570D62103D0140060A1C2 /* AppDelegate.swift */,
 				5FC570D82103D0140060A1C2 /* ViewController.swift */,
 				5FC570DA2103D0140060A1C2 /* Main.storyboard */,
 				5FC570DD2103D01B0060A1C2 /* Assets.xcassets */,
+				5FC57126210408AA0060A1C2 /* bkekka1.jpg */,
+				5FC57124210408AA0060A1C2 /* bkekka2.jpg */,
+				5FC57125210408AA0060A1C2 /* bsentaku.jpg */,
 				5FC570DF2103D01B0060A1C2 /* LaunchScreen.storyboard */,
 				5FC570E22103D01B0060A1C2 /* Info.plist */,
 			);
 			path = Kamishibai;
+			sourceTree = "<group>";
+		};
+		5FC5711A210404540060A1C2 /* untitled folder */ = {
+			isa = PBXGroup;
+			children = (
+				5FC570E92103E1960060A1C2 /* kekka1.jpg */,
+				5FC570E82103E1950060A1C2 /* kekka2.jpg */,
+				5FC570EA2103E1960060A1C2 /* sentaku.jpg */,
+			);
+			path = "untitled folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC57129210408AA0060A1C2 /* bkekka1.jpg in Resources */,
 				5FC570E12103D01B0060A1C2 /* LaunchScreen.storyboard in Resources */,
+				5FC570EC2103E1960060A1C2 /* kekka1.jpg in Resources */,
+				5FC57127210408AA0060A1C2 /* bkekka2.jpg in Resources */,
 				5FC570DE2103D01B0060A1C2 /* Assets.xcassets in Resources */,
+				5FC570ED2103E1960060A1C2 /* sentaku.jpg in Resources */,
+				5FC57128210408AA0060A1C2 /* bsentaku.jpg in Resources */,
+				5FC570EB2103E1960060A1C2 /* kekka2.jpg in Resources */,
 				5FC570DC2103D0140060A1C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +172,7 @@
 			files = (
 				5FC570D92103D0140060A1C2 /* ViewController.swift in Sources */,
 				5FC570D72103D0140060A1C2 /* AppDelegate.swift in Sources */,
+				5FC5710F2103F9AF0060A1C2 /* B2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
